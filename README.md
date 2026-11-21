@@ -190,7 +190,7 @@ Cybersecurity Intern — NetworkWalks
 
 Batch: B084
 
-LinkedIn: Gyamfi Cindy Fosuaa
+LinkedIn: [Gyamfi Cindy Fosuaa](https://www.linkedin.com/in/cindy-fosuaa-gyamfi-b5158134a/)
 
 ⸻
 
