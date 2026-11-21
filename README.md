@@ -68,6 +68,7 @@ I began the first exercise by selecting a password-protected PDF file and using 
 The hash serves as the input for the password recovery process, allowing the cracking tool to work on the password without repeatedly opening the original document.
 
 Screenshot 1: Generating the PDF Hash Online
+<img width="1179" height="575" alt="image" src="https://github.com/user-attachments/assets/d928b0ce-35aa-4458-8399-5c603147519c" />
 
 Explanation: This screenshot shows the online tool generating the hash from the first encrypted PDF file.
 
@@ -78,6 +79,7 @@ Once the hash was generated, I copied the hash text and opened Notepad on my Win
 I pasted the hash into the text editor and saved it as a text file. This file was then ready to be used as input for Johnny.
 
 Screenshot 2: Hash Stored in Notepad
+<img width="1004" height="398" alt="image" src="https://github.com/user-attachments/assets/0f9e137b-deec-4fc9-92da-43d6812d2968" />
 
 Explanation: This image shows the extracted hash stored in Notepad before it was loaded into the cracking application.
 
@@ -88,6 +90,7 @@ I launched Johnny and loaded the hash file I had saved earlier.
 The interface allowed me to prepare the hash for analysis and view the available options before starting the password recovery attempt.
 
 Screenshot 3: Importing the Hash into Johnny
+<img width="680" height="711" alt="image" src="https://github.com/user-attachments/assets/fd98640c-3f78-4788-8ede-e4188eeb8b04" />
 
 Explanation: The screenshot displays Johnny with the hash file loaded and prepared for the password recovery task.
 
@@ -98,6 +101,7 @@ With the hash loaded, I started the password recovery process.
 John the Ripper examined the hash and attempted to identify the password that could unlock the protected PDF file. I monitored the process through Johnny’s graphical interface.
 
 Screenshot 4: Password Recovery in Progress
+<img width="690" height="715" alt="image" src="https://github.com/user-attachments/assets/2f1e2977-039c-48ba-9092-2b114b6c69c2" />
 
 Explanation: This screenshot captures the password analysis process as Johnny attempts to recover the password associated with the hash.
 
@@ -108,6 +112,7 @@ The process eventually returned a successful password recovery result for the fi
 This marked the completion of the first exercise and demonstrated how a password-protected file can be assessed using hash-based password recovery techniques.
 
 Screenshot 5: Password Recovery Result
+<img width="1353" height="641" alt="image" src="https://github.com/user-attachments/assets/074bce53-9893-4e74-96ac-bad6b24ec61c" />
 
 Explanation: The image shows the successful result returned after the first PDF password recovery attempt.
 
@@ -122,6 +127,7 @@ For the second part of the assignment, I worked with a different password-protec
 This time, I used the NetworkWalks Hash Generator rather than the online hash generator from the previous exercise. The tool converted the protected PDF into a hash that could be used for the next stage of the challenge.
 
 Screenshot 6: NetworkWalks PDF Hash Generator
+<img width="1334" height="652" alt="image" src="https://github.com/user-attachments/assets/8618ab58-f4c7-4284-8009-a0aa5f1f2ec1" />
 
 Explanation: This screenshot shows the second PDF being processed through the NetworkWalks hash generation tool.
 
@@ -132,6 +138,7 @@ After obtaining the hash, I moved to the NetworkWalks Password Cracker.
 I provided the generated hash to the platform, which then carried out the password recovery process to determine the password associated with the second PDF.
 
 Screenshot 7: NetworkWalks Password Cracker
+<img width="1333" height="671" alt="image" src="https://github.com/user-attachments/assets/94f04c89-27e6-434b-9b30-813b99eeb806" />
 
 Explanation: This image shows the hash being used in the NetworkWalks password recovery interface.
 
@@ -142,6 +149,7 @@ The second password recovery task was completed successfully.
 After obtaining the required result, I proceeded to capture the flag, marking the successful completion of the challenge.
 
 Screenshot 8: CTF Completion
+<img width="1349" height="629" alt="image" src="https://github.com/user-attachments/assets/75b8bbe1-55d2-42ae-9f9d-42d5a56e9427" />
 
 Explanation: This screenshot provides evidence of the successful password recovery and the completion of the Capture The Flag task.
 
